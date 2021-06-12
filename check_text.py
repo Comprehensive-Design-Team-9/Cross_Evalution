@@ -5,17 +5,21 @@
 
 
 def check(text, keyword):
-    if text != None:
-        if keyword in text:
-            #print("탬색한 키워드", keyword)
-            #print("Hae")
-            return 1
+    try:
+        if text != None:
+            #print("check text : ",text)
+            if keyword in text:
+                #print("탬색한 키워드", keyword)
+                #print("Hae")
+                return 1
+            else:
+                #print("탬색한 키워드", keyword)
+                #print("0")
+                return 0
         else:
-            #print("탬색한 키워드", keyword)
             #print("0")
             return 0
-    else:
-        #print("0")
+    except:
         return 0
 
 
