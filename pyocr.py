@@ -52,16 +52,4 @@ def OCR(text, img_path):
     #     #없으면 문자 0을 반환
     #     print("없으면 0")
 
-#
-# img_path = "/Users/sonjung-yeong/Desktop/naver_blog_post/seoul_naver_blog_post_img/https:/blog.naver.com/gkwork90/222352139632/82.jpg"
-# # check_keyword = ["협찬", "고료", "광고", "후원", "원고", "지원", "제공", "업체", "서비스"]
-# #
-# # # img = cv2.imread(img_path)
-# # # img = img_Contrast(img)
-# # # img.save(img_path)
-# #
-# #
-# # gray_s(img_path)
-# text = ""
-# OCR(text, img_path)
 
