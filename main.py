@@ -4,10 +4,10 @@ import get_url
 from datetime import datetime
 
 #파일 저장 위치
-csv_path = "/Users/sonjung-yeong/Desktop/naver_blog_post/"
+csv_path = ""
 #img 파일 저장 위치
-seoul_img_path = "/Users/sonjung-yeong/Desktop/naver_blog_post/seoul_naver_blog_post_img/"
-img_path = "/Users/sonjung-yeong/Desktop/naver_blog_post/naver_blog_post_img/"
+seoul_img_path = ""
+img_path = ""
 # 불러올 url 저장된 파일 명칭
 today_hour = datetime.today().strftime("%Y%m%d%H%M%S")
 url_file_name = "drop_submission.csv"
